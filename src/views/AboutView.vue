@@ -1,5 +1,18 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <check-order/>
 </template>
+
+<script>
+import CheckOrder from '@/components/CheckOrder'
+export default {
+  name:'AboutView',
+  components:{
+    CheckOrder
+  }
+
+}
+</script>
+
+<style>
+
+</style>
